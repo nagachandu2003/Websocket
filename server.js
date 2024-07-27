@@ -52,7 +52,7 @@ wss.on('connection', (ws) => {
 
                     // Use OpenAI GPT-4 to get a response based on the transcript
                     const response = await openai.chat.completions.create({
-                        model: "gpt-4",
+                        model: "gpt-4o",
                         messages: [
                             { role: "system", content: "You are a phone conversational assistant providing short and clear responses." },
                             ...previousMessages,
