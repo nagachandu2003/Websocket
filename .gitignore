@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node Modules
+node_modules/
+
+# Environment variables
+.env
+
+# Service account key
+service.json
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
