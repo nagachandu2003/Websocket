@@ -16,7 +16,7 @@
         let audioChunks = [];
 
         document.getElementById('start').addEventListener('click', async () => {
-            socket = new WebSocket('wss://websockect.onrender.com');
+            socket = new WebSocket('ws://localhost:8000');
             
             socket.onopen = () => {
                 console.log('WebSocket connection opened');
